@@ -6,6 +6,14 @@ function Layout(props) {
         <div>
             <MainNavigation />
             <main className={classes.main}>{props.children}</main>
+            <footer className={classes.footer}>
+                <p>
+                    Copyright &copy; 2021 |{' '}
+                    <a href="http://shubhamm.in/" target="_blank">
+                        VeNoM
+                    </a>
+                </p>
+            </footer>
         </div>
     )
 }
